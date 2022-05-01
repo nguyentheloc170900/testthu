@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .header{
+        width: 100px;
+        height: 100px;
+        background-color: brown;
+        padding: 20px;
+        box-sizing: border-box;
+        border: 10px dashed green;
+        /* background-clip mặc định là boder-box
+        đổ màu nền */
+        background-clip: padding-box;
+        /* quyết định background của chúng ta đổ từ ranh giới nào
+        nếu là boder-box thì nó sẽ đổ từ boder về content còn nếu 
+        là padding-box thì sẽ đổ từ padding về content
+        nếu là content thì chỉ đổi content */
+    }
+</style>
+<body>
+    <div class="header"></div>
+</body>
+</html>
